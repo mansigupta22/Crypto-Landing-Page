@@ -13,7 +13,7 @@
 ![HTML](https://img.shields.io/badge/html-3670A0?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-%234ea94b.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-### _Live Hosted Link 🚀_ : _[Crypto Landing Page]()_
+### _Live Hosted Link 🚀_ : _[Crypto Landing Page](https://crypto-lp-p5.netlify.app/)_
 
 ## How the website looks like:
 

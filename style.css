@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* ------Navbar----------- */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    height: 14vh;
+    padding: 0 90px;
+}
+.logo{
+    height: 40px;
+}
+.line{
+    height: 50px;
+    width: 3px;
+    background-color: #FFFFFF;
+    margin-left: -19rem;
+}
+.list{
+    display: flex;
+    color: #FFFFFF;
+    list-style: none;
+    gap: 5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: -19rem;
+}
+
+/* Dropdown */
+.list-item{
+    position: relative;
+}
+.list-item:first-child::after{
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 2px;
+    background-color: #FFFFFF;
+    transform: rotate(-45deg);
+    top: 9px;
+    right: -15px; 
+}
+.list-item:first-child::before{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 12px;
+    width: 2px;
+    transform: rotate(45deg);
+    right: -23px;
+    top: 9px;
+}
+
+/* --- */
+.button-small{
+    color: #FFFFFF;
+    background-color: #BA0CC5;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ------Hero Section----------*/
+.hero{
+   height:86vh;
+   background-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./assets/bg.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #FFFFFF;
+   text-align: center;
+}
+.hero-heading{
+    font-size: 5rem;
+    font-weight: 600;
+    max-width: 900px;
+    margin-top: 80px;
+    line-height: 6rem;
+}
+.hero-description{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.button-large{
+    color:#FFFFFF;
+    background-color: #BA0CC5;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+}
